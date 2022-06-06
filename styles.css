@@ -29,9 +29,47 @@ fieldset {
   padding-right: 0px;
 }
 
+fieldset:not(:last-of-type) {
+  border-bottom: 3px solid #3b3b4f;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0a0a23;
+  color: #ffffff;
+}
+
 label {
   display: block; /* label elements are inline by default! */
   margin: 0.5rem 0; /* siehe Fußnote > CSS Units */
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */

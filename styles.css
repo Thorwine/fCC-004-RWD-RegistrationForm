@@ -19,6 +19,7 @@ form {
   width: 60vw; /* siehe Fußnote > CSS Units */
   min-width: 300px;
   max-width: 500px;
+  padding-bottom: 2em;
 }
 
 fieldset {
@@ -61,6 +62,20 @@ label {
 input[type="submit"] {
   display: block;
   width: 60%;
+  min-width: 300px;
+  height: 2em;
+  margin: 1em auto 1em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
 }
 
 .inline {

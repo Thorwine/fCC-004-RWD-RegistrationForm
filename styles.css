@@ -5,3 +5,17 @@ body {
   background-color: #1b1b32;
   color: #f5f6f7;
 }
+
+label {
+  display: block;
+  margin: 0.5rem 0; /* siehe Fußnote */
+}
+
+/* What is REM in CSS? */
+
+/* In CSS rem stands for “root em”, a unit of measurement that represents the font size of the root element. 
+This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px. 
+Using rem can help ensure consistency of font size and spacing throughout your UI. */
+
+/* https://www.freecodecamp.org/news/what-is-rem-in-css */
+/* https://www.sitepoint.com/understanding-and-using-rem-units-in-css */

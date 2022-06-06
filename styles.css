@@ -4,17 +4,42 @@ body {
   margin: 0px;
   background-color: #1b1b32;
   color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1,
+p {
+  margin: 1em auto; /* siehe Fußnote > CSS Units */
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 60vw; /* siehe Fußnote > CSS Units */
+  min-width: 300px;
+  max-width: 500px;
+}
+
+fieldset {
+  border: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 label {
   display: block; /* label elements are inline by default! */
-  margin: 0.5rem 0; /* siehe Fußnote */
+  margin: 0.5rem 0; /* siehe Fußnote > CSS Units */
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 
-/* What is REM in CSS? */
+/* CSS Units */
+/* https://www.w3schools.com/CSSref/css_units.asp */
 
+/* What is REM in CSS? */
 /* In CSS rem stands for “root em”, a unit of measurement that represents the font size of the root element. 
 This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px. 
 Using rem can help ensure consistency of font size and spacing throughout your UI. */
